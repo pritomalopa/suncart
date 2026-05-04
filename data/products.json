@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "UV Shield Aviator Sunglasses",
+    "brand": "SunShade",
+    "price": 29.99,
+    "rating": 4.8,
+    "stock": 15,
+    "description": "Premium polarized aviator sunglasses with 100% UV400 protection. Lightweight titanium frame with scratch-resistant lenses. Perfect for beach days, driving, and outdoor adventures. The gradient lenses provide stylish sun protection while reducing glare.",
+    "image": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=600&q=80",
+    "category": "Accessories",
+    "badge": "Best Seller"
+  },
+  {
+    "id": 2,
+    "name": "Tropical Floral Sundress",
+    "brand": "BeachBloom",
+    "price": 45.00,
+    "rating": 4.6,
+    "stock": 20,
+    "description": "Flowy midi sundress in a vibrant tropical floral print. Made from breathable 100% rayon fabric to keep you cool in the heat. Features adjustable spaghetti straps, a smocked bodice, and tiered skirt. Perfect for beach outings, summer parties, and vacation days.",
+    "image": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=600&q=80",
+    "category": "Clothing",
+    "badge": "New Arrival"
+  },
+  {
+    "id": 3,
+    "name": "SPF 50 Mineral Sunscreen",
+    "brand": "GlowGuard",
+    "price": 18.99,
+    "rating": 4.9,
+    "stock": 50,
+    "description": "Reef-safe mineral sunscreen with SPF 50 broad-spectrum UVA/UVB protection. Non-greasy, water-resistant formula that blends invisibly on all skin tones. Enriched with aloe vera and vitamin E for extra skin nourishment. Dermatologist tested and fragrance-free.",
+    "image": "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=600&q=80",
+    "category": "Skincare",
+    "badge": "Top Rated"
+  },
+  {
+    "id": 4,
+    "name": "Inflatable Beach Lounger",
+    "brand": "WaveRider",
+    "price": 39.50,
+    "rating": 4.5,
+    "stock": 12,
+    "description": "Giant inflatable floating beach lounger that captures the wind to inflate in seconds — no pump needed! Fits 1-2 adults comfortably. Made from lightweight, durable ripstop nylon. Includes a built-in pillow headrest, drink holder, and storage pocket. Folds down to a compact size.",
+    "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80",
+    "category": "Beach Accessories",
+    "badge": "Hot Deal"
+  },
+  {
+    "id": 5,
+    "name": "Straw Sun Hat",
+    "brand": "TropicStyle",
+    "price": 22.00,
+    "rating": 4.7,
+    "stock": 30,
+    "description": "Wide-brim handwoven straw hat with UPF 50+ protection. Features a fashionable grosgrain ribbon band and a foldable, packable design for easy travel. The 4-inch brim shades your face, neck, and shoulders. Adjustable inner drawstring ensures a secure fit.",
+    "image": "https://images.unsplash.com/photo-1521369909029-2afed882baee?w=600&q=80",
+    "category": "Accessories",
+    "badge": "Summer Pick"
+  },
+  {
+    "id": 6,
+    "name": "Aloe Vera After-Sun Gel",
+    "brand": "CoolDown",
+    "price": 12.99,
+    "rating": 4.8,
+    "stock": 40,
+    "description": "Soothing after-sun gel with 95% pure organic aloe vera to calm, hydrate, and repair sun-exposed skin. Infused with cucumber extract and chamomile for instant cooling relief. Non-sticky, fast-absorbing formula. Works great for sunburns, minor irritations, and general skin hydration.",
+    "image": "https://images.unsplash.com/photo-1608248597279-f99d160bfcbc?w=600&q=80",
+    "category": "Skincare",
+    "badge": "Fan Favorite"
+  },
+  {
+    "id": 7,
+    "name": "Waterproof Beach Tote Bag",
+    "brand": "SandSide",
+    "price": 34.00,
+    "rating": 4.6,
+    "stock": 25,
+    "description": "Spacious waterproof tote bag designed for beach days. Features a large main compartment, zipper interior pocket, and multiple exterior pockets for organization. The woven exterior looks chic while the PVC-coated interior keeps sand and water out. Fits towels, sunscreen, snacks, and more.",
+    "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=600&q=80",
+    "category": "Beach Accessories",
+    "badge": "New Arrival"
+  },
+  {
+    "id": 8,
+    "name": "Men's Swim Trunks",
+    "brand": "OceanWave",
+    "price": 27.99,
+    "rating": 4.5,
+    "stock": 18,
+    "description": "Quick-dry men's swim trunks with a tropical print. Made from lightweight recycled polyester with a 4-way stretch for maximum mobility. Features a comfortable elastic waistband with an interior mesh brief and secure zip pocket. UPF 40+ fabric protection.",
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&q=80",
+    "category": "Clothing",
+    "badge": "Eco Pick"
+  }
+]
