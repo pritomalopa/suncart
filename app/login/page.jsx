@@ -1,6 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { signIn, useSession } from "@/lib/auth-client";
 import toast from "react-hot-toast";
@@ -13,15 +13,23 @@ export default function LoginPage() {
   const [showPass, setShowPass] = useState(false);
   const [loading, setLoading] = useState(false);
   const [googleLoading, setGoogleLoading] = useState(false);
+  const [redirect, setRedirect] = useState("/");
+  const [mounted, setMounted] = useState(false);
 
   const router = useRouter();
-  const searchParams = useSearchParams();
-  const redirect = searchParams.get("redirect") || "/";
   const { data: session } = useSession();
+
+  useEffect(() => {
+    setMounted(true);
+    const params = new URLSearchParams(window.location.search);
+    setRedirect(params.get("redirect") || "/");
+  }, []);
 
   useEffect(() => {
     if (session) router.push(redirect);
   }, [session, redirect, router]);
+
+  if (!mounted) return null;
 
   const handleLogin = async (e) => {
     e.preventDefault();
